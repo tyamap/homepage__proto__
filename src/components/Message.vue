@@ -1,0 +1,9 @@
+<template>
+    <v-sheet
+      id="message"
+      class="overflow-y-auto"
+      height="400"
+    >
+    <h1>Message</h1>
+  </v-sheet>
+</template>

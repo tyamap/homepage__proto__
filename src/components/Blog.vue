@@ -1,0 +1,9 @@
+<template>
+    <v-sheet
+      id="blog"
+      class="overflow-y-auto"
+      height="400"
+    >
+    <h1>Blog</h1>
+  </v-sheet>
+</template>
