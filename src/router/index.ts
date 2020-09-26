@@ -13,22 +13,22 @@ const routes: Array<RouteConfig> = [
   {
     path: '/about',
     name: 'About',
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    component: () => import(/* webpackChunkName: "pages" */ '../views/About.vue')
   },
   {
     path: '/works',
     name: 'Works',
-    component: () => import(/* webpackChunkName: "works" */ '../views/Works.vue')
+    component: () => import(/* webpackChunkName: "pages" */ '../views/Works.vue')
   },
   {
     path: '/blog',
     name: 'Blog',
-    component: () => import(/* webpackChunkName: "blog" */ '../views/Blog.vue')
+    component: () => import(/* webpackChunkName: "pages" */ '../views/Blog.vue')
   },
   {
     path: '/contact',
     name: 'Contact',
-    component: () => import(/* webpackChunkName: "contact" */ '../views/Contact.vue')
+    component: () => import(/* webpackChunkName: "pages" */ '../views/Contact.vue')
   }
 ]
 
