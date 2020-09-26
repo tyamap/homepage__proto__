@@ -1,7 +1,7 @@
 <template>
-  <v-sheet dark id="blog" height="600" :color="colors[3]">
+  <v-sheet dark id="contact" height="600" :color="colors[4]">
     <v-row class="fill-height" align="center" justify="center">
-      <div class="display-3">{{ slides[3] }}</div>
+      <div class="display-3">{{ slides[4] }}</div>
     </v-row>
   </v-sheet>
 </template>
