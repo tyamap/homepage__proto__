@@ -31,5 +31,6 @@
         </v-tabs>
       </template>
     </v-app-bar>
+    <v-sheet height="100%"></v-sheet>
   </v-card>
 </template>
