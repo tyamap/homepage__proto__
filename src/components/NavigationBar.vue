@@ -23,14 +23,13 @@
 
       <template v-slot:extension>
         <v-tabs align-with-title fixed-tabs>
-          <v-tab>message</v-tab>
-          <v-tab>about</v-tab>
-          <v-tab>works</v-tab>
-          <v-tab>blog</v-tab>
-          <v-tab>contact</v-tab>
+          <v-tab to="/">home</v-tab>
+          <v-tab to="/about">about</v-tab>
+          <v-tab to="/works">works</v-tab>
+          <v-tab to="/blog">blog</v-tab>
+          <v-tab to="/contact">contact</v-tab>
         </v-tabs>
       </template>
     </v-app-bar>
-    <v-sheet height="100%"></v-sheet>
   </v-card>
 </template>

@@ -5,6 +5,7 @@
     <About/>
     <Works/>
     <Blog/>
+    <Contact/>
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import Carousel from '@/components/Carousel.vue';
 import About from '@/components/About.vue';
 import Works from '@/components/Works.vue';
 import Blog from '@/components/Blog.vue';
+import Contact from '@/components/Contact.vue';
 
 export default {
   components:{
@@ -23,6 +25,7 @@ export default {
     About,
     Works,
     Blog,
+    Contact,
   }
 }
 </script>
